@@ -1,5 +1,4 @@
-import java.util.Scanner;
-import java.util.Random;
+
 public class app {
     public static void main(String[] args) {
         // System.out.println("Hello World"); // also same as System.out.print("Hello World\n")-- \n at the end inside quotes gives newline

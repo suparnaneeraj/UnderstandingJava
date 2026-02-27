@@ -1,8 +1,7 @@
 public class stringOccurrences {
     public static void main(String[] args) {
-        String sentence =" You are good but   good not as god.Good" , wordToCount="good",tempWord="";
-        int lengthOfSentence,count=0;
-        lengthOfSentence=sentence.length();
+        String sentence =" You are good but   good not as god.Good" , wordToCount="good";
+        int count=0;
         String [] arrayOfWords =(sentence.toLowerCase()).split("[ .]+");
 
         // for(int i=0;i<lengthOfSentence;i++){
