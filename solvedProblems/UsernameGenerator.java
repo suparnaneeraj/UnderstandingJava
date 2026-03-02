@@ -13,8 +13,8 @@ public class UsernameGenerator {
         lastName = scanner.nextLine();
 
         if(!firstName.isBlank() && !lastName.isBlank()){
-            firstName.replaceAll(" \\s", "").toLowerCase();
-            lastName.replaceAll("\\s", "").toLowerCase();
+            firstName.replaceAll(" \\s+", "").toLowerCase();
+            lastName.replaceAll("\\s+", "").toLowerCase();
             userName = getUsername(firstName, lastName);
             System.out.println("The username is "+userName);
        
